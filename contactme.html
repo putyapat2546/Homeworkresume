@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .form-box {
+      background-color: antiquewhite;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      width: 300px
+    }
+  </style>
+</head>
+<body>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="workexperience.html">Work Experience</a>
+    <a href="contactme.html">Contact Me</a>
+  </div>
+  <hr>
+  <h1>Contact Me</h1>
+  <form class="form-box">
+    <label for="urname">Your Name:</label><br>
+    <input type="text" id="urname" name="urname"><br>
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="gender">Gender:</label><br>
+    <select>
+      <option value="select" selected disabled hidden>select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br>
+    <label for="message">Message:</label><br>
+    <textarea name="message" style="width: 200px; height: 100px;">
+    </textarea><br>
+  <input type="submit"> <input type="reset">
+  </form>
+</body>
+</html>

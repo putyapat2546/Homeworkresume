@@ -1,0 +1,8 @@
+.links {
+  background-color: rgb(255, 212, 40);
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
